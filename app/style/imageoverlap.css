@@ -1,26 +1,27 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 80%;
-  max-width: 100%;
+  width: 1600px;
+  left: 20px;
 }
 
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 100%;
-  height: 800px;
+  width: 1600px;
+  max-width: 1600px;
+  height: 900px;
 }
 .image2 {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 800px;
+  width: 1600px;
   height: auto;
 }
 .image3 {
   position: absolute;
-  left: 580px;
+  left: 800px;
   top: 0px;
   width: 100%;
   height: auto;
@@ -53,7 +54,7 @@
   font-size: 20px;
 }
 .btn {
-  background-color: rgb(205, 15, 15);
+  background-color: rgb(213, 26, 26);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -65,14 +66,46 @@
   left: 50px;
   top: 440px;
 }
+.btn:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn2 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 50px;
+  top: 240px;
+  border-radius: 16px;
+}
+.btn2:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+
 .image-text4 {
   position: absolute;
-  left: 300px;
+  left: 250px;
   top: 450px;
   width: 100%;
-  height: auto;
+
   color: white;
   font-size: 20px;
+  background-color: rgb(17, 17, 17);
+  width: 180px;
+  border: 1px solid white;
+  padding: 1px;
+  margin: 1px;
+}
+.image-text4 a:hover:not(.active) {
+  background-color: #f70909;
+  color: white;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -94,4 +127,420 @@
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+
+.image5 {
+  position: absolute;
+  left: 1250px;
+  top: 550px;
+  width: 100%;
+  height: auto;
+}
+.image6 {
+  position: absolute;
+  left: 0px;
+  top: 550px;
+  width: 100%;
+  height: auto;
+}
+.image6-text1 {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image6-text4 {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image6-text5 {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  font-size: 20;
+  width: 40px;
+}
+.image6-text2 {
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  font-size: 20px;
+  width: 80%;
+  text-align: left;
+}
+.image6-text3 {
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  font-size: 20px;
+  width: 80%;
+  text-align: left;
+}
+.image6-text4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 30px;
+}
+.image6-text6 {
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.image7 {
+  position: absolute;
+  left: 100px;
+  top: 930px;
+  width: 1400px;
+}
+.btn3 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  border-radius: 25px;
+}
+.btn3:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn4 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 400px;
+  top: 10px;
+  border-radius: 25px;
+}
+.btn4:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn5 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 900px;
+  top: 10px;
+  border-radius: 25px;
+}
+.btn5:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image7-text1 {
+  position: absolute;
+  right: 800px;
+  top: 900px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.image7-text2 {
+  position: absolute;
+  right: 470px;
+  top: 1100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image7-text3 {
+  position: absolute;
+  left: 380px;
+  top: 950px;
+  font-size: 20px;
+  width: 80%;
+  text-align: left;
+}
+.image8 {
+  position: absolute;
+  left: 1050px;
+  top: 1200px;
+}
+.image9 {
+  position: absolute;
+  left: 800px;
+  top: 1100px;
+}
+.image9-text1 {
+  position: absolute;
+  left: 100px;
+  top: 1100px;
+  width: 500px;
+}
+.btn6 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  border-radius: 16px;
+}
+.btn6:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image10-text1 {
+  position: absolute;
+  left: 700px;
+  top: 1700px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image11 {
+  position: absolute;
+  left: 380px;
+  top: 1800px;
+  font-size: 20px;
+  width: 80%;
+  text-align: left;
+}
+.btn7-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn7-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn8-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn8-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn9-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 400px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn10-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn10-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 600px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn10-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn11-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 800px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn11-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn12-image11 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 1000px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn12-image11:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image12 {
+  position: absolute;
+  left: 1000px;
+  top: 2000px;
+}
+.image13 {
+  position: absolute;
+  left: 700px;
+  top: 2050px;
+}
+.image13-text1 {
+  position: absolute;
+  left: 100px;
+  top: 2050px;
+  width: 500px;
+}
+.image14 {
+  position: absolute;
+  left: 1000px;
+  top: 2270px;
+}
+.image15 {
+  position: absolute;
+  left: 0px;
+  top: 2570px;
+}
+.image16 {
+  position: absolute;
+  left: 500px;
+  top: 3500px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image17 {
+  position: absolute;
+  left: 200px;
+  top: 3600px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn13-image17 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn13-image17:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn14-image17 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 300px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn14-image17:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn15-image17 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 500px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn15-image17:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn16-image17 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 700px;
+  top: 10px;
+  border-radius: 16px;
+}
+.btn16-image17:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
 }
