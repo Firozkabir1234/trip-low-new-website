@@ -80,8 +80,8 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 50px;
-  top: 240px;
+  left: 10px;
+  top: 410px;
   border-radius: 16px;
 }
 .btn2:hover {
@@ -131,14 +131,14 @@
 
 .image5 {
   position: absolute;
-  left: 1250px;
+  left: 1050px;
   top: 550px;
   width: 100%;
   height: auto;
 }
 .image6 {
   position: absolute;
-  left: 0px;
+  left: 200px;
   top: 550px;
   width: 100%;
   height: auto;
@@ -152,7 +152,7 @@
 }
 .image6-text4 {
   position: absolute;
-  left: 10px;
+  left: 0px;
   top: 0px;
   font-size: 30px;
   font-weight: bold;
@@ -166,38 +166,36 @@
 }
 .image6-text2 {
   position: absolute;
-  left: 0px;
+  left: 10px;
   top: 90px;
   font-size: 20px;
-  width: 80%;
-  text-align: left;
+  width: 500px;
 }
 .image6-text3 {
   position: absolute;
-  left: 0px;
-  top: 150px;
+  left: 10px;
+  top: 250px;
   font-size: 20px;
-  width: 80%;
-  text-align: left;
+  width: 500px;
 }
 .image6-text4 {
   position: absolute;
-  left: 0px;
+  left: 200px;
   top: 0px;
   font-size: 30px;
 }
 .image6-text6 {
   position: absolute;
-  left: 700px;
-  top: 300px;
+  left: 400px;
+  top: 450px;
   font-size: 40px;
   font-weight: bold;
 }
 .image7 {
   position: absolute;
-  left: 100px;
-  top: 930px;
-  width: 1400px;
+  left: 200px;
+  top: 1100px;
+  width: 1190px;
 }
 .btn3 {
   background-color: rgb(18, 17, 17);
@@ -245,9 +243,10 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 900px;
-  top: 10px;
+  left: 850px;
+  top: 0px;
   border-radius: 25px;
+  width: 300px;
 }
 .btn5:hover {
   background-color: hsl(0, 95%, 34%);
@@ -278,17 +277,17 @@
 .image8 {
   position: absolute;
   left: 1050px;
-  top: 1200px;
+  top: 1350px;
 }
 .image9 {
   position: absolute;
   left: 800px;
-  top: 1100px;
+  top: 1250px;
 }
 .image9-text1 {
   position: absolute;
-  left: 100px;
-  top: 1100px;
+  left: 200px;
+  top: 1450px;
   width: 500px;
 }
 .btn6 {
@@ -301,7 +300,7 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 100px;
+  left: 10px;
   top: 200px;
   border-radius: 16px;
 }
@@ -312,17 +311,15 @@
 .image10-text1 {
   position: absolute;
   left: 700px;
-  top: 1700px;
+  top: 1850px;
   font-size: 30px;
   font-weight: bold;
 }
 .image11 {
   position: absolute;
-  left: 380px;
-  top: 1800px;
+  left: 200px;
+  top: 1950px;
   font-size: 20px;
-  width: 80%;
-  text-align: left;
 }
 .btn7-image11 {
   background-color: rgb(18, 17, 17);
@@ -435,17 +432,17 @@
 .image12 {
   position: absolute;
   left: 1000px;
-  top: 2000px;
+  top: 2100px;
 }
 .image13 {
   position: absolute;
   left: 700px;
-  top: 2050px;
+  top: 2150px;
 }
 .image13-text1 {
   position: absolute;
-  left: 100px;
-  top: 2050px;
+  left: 200px;
+  top: 2150px;
   width: 500px;
 }
 .image14 {
@@ -455,17 +452,96 @@
 }
 .image15 {
   position: absolute;
-  left: 0px;
-  top: 2570px;
+  left: 200px;
+  top: 2770px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image15-1 {
+  position: absolute;
+  left: 500px;
+  top: 2670px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image15-2 {
+  position: absolute;
+  left: 400px;
+  top: 2770px;
+  font-size: 20px;
+  width: 700px;
+}
+.image15-3 {
+  position: absolute;
+  left: 300px;
+  top: 2900px;
+  background: black;
+  border-radius: 16px;
+}
+.image15-3-1 {
+  position: absolute;
+  left: 220px;
+  top: 3040px;
+  font-size: 25px;
+  width: 340px;
+}
+.image15-4 {
+  position: absolute;
+  left: 590px;
+  top: 2900px;
+  background: black;
+  border-radius: 16px;
+}
+.image15-4-1 {
+  position: absolute;
+  left: 570px;
+  top: 3040px;
+  font-size: 25px;
+  width: 200px;
+}
+.image15-5 {
+  position: absolute;
+  left: 850px;
+  top: 2900px;
+  background: black;
+  border-radius: 16px;
+}
+.image15-5-1 {
+  position: absolute;
+  left: 850px;
+  top: 3040px;
+  font-size: 25px;
+  width: 200px;
+}
+.image15-6 {
+  position: absolute;
+  left: 1100px;
+  top: 2900px;
+  background: black;
+  border-radius: 16px;
+}
+.image15-6-1 {
+  position: absolute;
+  left: 1080px;
+  top: 3040px;
+  font-size: 25px;
+  width: 200px;
 }
 .image16 {
   position: absolute;
-  left: 500px;
+  left: 550px;
   top: 3500px;
   font-size: 30px;
   font-weight: bold;
 }
 .image17 {
+  position: absolute;
+  left: 200px;
+  top: 3600px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image18 {
   position: absolute;
   left: 200px;
   top: 3600px;
@@ -482,7 +558,7 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 100px;
+  left: 200px;
   top: 10px;
   border-radius: 16px;
 }
@@ -500,8 +576,9 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 300px;
+  left: 400px;
   top: 10px;
+  width: 150px;
   border-radius: 16px;
 }
 .btn14-image17:hover {
@@ -518,7 +595,7 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 500px;
+  left: 600px;
   top: 10px;
   border-radius: 16px;
 }
@@ -536,11 +613,437 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 700px;
+  left: 800px;
   top: 10px;
+  width: 150px;
   border-radius: 16px;
 }
 .btn16-image17:hover {
   background-color: hsl(0, 95%, 34%);
   color: white;
+}
+.image19 {
+  position: absolute;
+  left: 800px;
+  top: 3750px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image20 {
+  position: absolute;
+  left: 1000px;
+  top: 3850px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image21 {
+  position: absolute;
+  left: 200px;
+  top: 3850px;
+  width: 500px;
+  font-size: 20px;
+}
+.btn17-image21 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 200px;
+  top: 4150px;
+  width: 150px;
+  border-radius: 16px;
+}
+.btn17-image21:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image22 {
+  position: absolute;
+  left: 560px;
+  top: 4250px;
+  width: 400px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image23 {
+  position: absolute;
+  left: 300px;
+  top: 4350px;
+  width: 900px;
+}
+.btn18-image23 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 200px;
+  top: 4350px;
+  width: 250px;
+  border-radius: 16px;
+}
+.btn18-image23:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn19-image23 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 470px;
+  top: 4350px;
+  width: 350px;
+  border-radius: 16px;
+}
+.btn19-image23:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn20-image23 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 850px;
+  top: 4350px;
+  width: 250px;
+  border-radius: 16px;
+}
+.btn20-image23:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.btn21-image23 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 1130px;
+  top: 4350px;
+  width: 150px;
+  border-radius: 16px;
+}
+.btn21-image23:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image24 {
+  position: absolute;
+  left: 1000px;
+  top: 4550px;
+  width: 900px;
+}
+.image25 {
+  position: absolute;
+  left: 800px;
+  top: 4450px;
+  width: 900px;
+}
+.image26 {
+  position: absolute;
+  left: 200px;
+  top: 4550px;
+  width: 500px;
+}
+.btn22-image27 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 200px;
+  top: 4750px;
+  width: 150px;
+  border-radius: 16px;
+}
+.btn22-image27:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image28 {
+  position: absolute;
+  left: 1000px;
+  top: 4950px;
+  width: 500px;
+}
+.image29 {
+  position: absolute;
+  left: 1130px;
+  top: 5100px;
+}
+.image30 {
+  position: absolute;
+  left: 200px;
+  top: 4950px;
+  width: 500px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image31 {
+  position: absolute;
+  left: 200px;
+  top: 5050px;
+  width: 500px;
+  font-size: 20px;
+}
+.btn23-image31 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 200px;
+  top: 5250px;
+  width: 350px;
+  border-radius: 16px;
+}
+.btn23-image31:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image32 {
+  position: absolute;
+  left: 200px;
+  top: 5400px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.image33 {
+  position: absolute;
+  left: 200px;
+  top: 5420px;
+  width: 200px;
+  font-size: 20px;
+}
+.image34 {
+  position: absolute;
+  left: 200px;
+  top: 5440px;
+  width: 200px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn24-image34 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 1100px;
+  top: 5440px;
+  width: 150px;
+  border-radius: 16px;
+}
+.btn24-image34:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image35 {
+  position: absolute;
+  left: 200px;
+  top: 5520px;
+}
+.image36 {
+  position: absolute;
+  left: 600px;
+  top: 5520px;
+}
+.image37 {
+  position: absolute;
+  left: 1000px;
+  top: 5520px;
+}
+.image38 {
+  position: absolute;
+  left: 200px;
+  top: 5880px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 350px;
+}
+.image39 {
+  position: absolute;
+  left: 600px;
+  top: 5880px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 350px;
+}
+.image40 {
+  position: absolute;
+  left: 1000px;
+  top: 5880px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 350px;
+}
+.image41 {
+  position: absolute;
+  left: 200px;
+  top: 6000px;
+}
+.image42 {
+  position: absolute;
+  left: 240px;
+  top: 6200px;
+}
+.image43 {
+  position: absolute;
+  left: 610px;
+  top: 6200px;
+}
+.image44 {
+  position: absolute;
+  left: 980px;
+  top: 6200px;
+}
+.image45 {
+  position: absolute;
+  left: 240px;
+  top: 6560px;
+}
+.image46 {
+  position: absolute;
+  left: 610px;
+  top: 6560px;
+}
+.image47 {
+  position: absolute;
+  left: 980px;
+  top: 6560px;
+}
+.btn25-image41 {
+  background-color: rgb(18, 17, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 1100px;
+  top: 6100px;
+  width: 150px;
+  border-radius: 16px;
+}
+.btn25-image41:hover {
+  background-color: hsl(0, 95%, 34%);
+  color: white;
+}
+.image48 {
+  position: absolute;
+  left: 600px;
+  top: 7000px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image49 {
+  position: absolute;
+  left: 700px;
+  top: 7100px;
+  font-size: 20px;
+  width: 500px;
+}
+.image50 {
+  position: absolute;
+  left: 700px;
+  top: 7250px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.image51 {
+  position: absolute;
+  left: 700px;
+  top: 7290px;
+  font-size: 25px;
+}
+.image52 {
+  position: absolute;
+  left: 300px;
+  top: 7090px;
+}
+.image53 {
+  position: absolute;
+  left: 200px;
+  top: 7490px;
+}
+.image54 {
+  position: absolute;
+  left: 220px;
+  top: 7690px;
+  font-size: 20px;
+  width: 450px;
+  color: #f1f1f1;
+}
+.image55 {
+  position: absolute;
+  left: 300px;
+  top: 7590px;
+  background-color: #f1f1f1;
+}
+.image56 {
+  position: absolute;
+  left: 1120px;
+  top: 7590px;
+  background-color: #f1f1f1;
+}
+.image57 {
+  position: absolute;
+  left: 980px;
+  top: 7590px;
+  background-color: #f1f1f1;
+}
+.image58 {
+  position: absolute;
+  left: 780px;
+  top: 7590px;
+  background-color: #f1f1f1;
+}
+.image59 {
+  position: absolute;
+  left: 780px;
+  top: 7610px;
+  background-color: #f1f1f1;
+}
+a:hover {
+  color: hotpink;
 }

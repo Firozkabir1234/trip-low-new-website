@@ -26,7 +26,7 @@ const Navbar = () => {
               alt=""
               width={248}
               height={49}
-              className="w-[100px] h-[50px]"
+              className="w-[180px] h-[70px]"
               priority
             />
           </div>
