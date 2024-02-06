@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  width: 1600px;
+  left: 10px;
+}
+.image53 {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+.image54 {
+  position: absolute;
+  left: 200px;
+  top: 270px;
+  font-size: 20px;
+  width: 450px;
+  color: #f1f1f1;
+}
+.image55 {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  background-color: #f1f1f1;
+  width: 250px;
+}
+.image56 {
+  position: absolute;
+  left: 1050px;
+  top: 150px;
+  background-color: #f1f1f1;
+}
+.image57 {
+  position: absolute;
+  left: 920px;
+  top: 150px;
+  background-color: #f1f1f1;
+}
+
+.image58 {
+  position: absolute;
+  left: 720px;
+  top: 150px;
+  background-color: #f1f1f1;
+}
+.image59 {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  background-color: #f1f1f1;
+}
+a:hover {
+  color: hotpink;
+}

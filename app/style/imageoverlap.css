@@ -28,8 +28,8 @@
 }
 .image-text1 {
   position: absolute;
-  left: 50px;
-  top: 250px;
+  left: 100px;
+  top: 200px;
   width: 100%;
   height: auto;
   color: white;
@@ -37,8 +37,8 @@
 }
 .image-text2 {
   position: absolute;
-  left: 50px;
-  top: 200px;
+  left: 100px;
+  top: 120px;
   width: 100%;
   height: auto;
   color: rgb(205, 15, 15);
@@ -46,8 +46,8 @@
 }
 .image-text3 {
   position: absolute;
-  left: 50px;
-  top: 370px;
+  left: 100px;
+  top: 320px;
   width: 100%;
   height: auto;
   color: white;
@@ -63,8 +63,8 @@
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  left: 50px;
-  top: 440px;
+  left: 100px;
+  top: 390px;
 }
 .btn:hover {
   background-color: hsl(0, 95%, 34%);
@@ -91,14 +91,13 @@
 
 .image-text4 {
   position: absolute;
-  left: 250px;
-  top: 450px;
-  width: 100%;
-
+  left: 300px;
+  top: 390px;
   color: white;
   font-size: 20px;
   background-color: rgb(17, 17, 17);
   width: 180px;
+  height: 50px;
   border: 1px solid white;
   padding: 1px;
   margin: 1px;
@@ -150,13 +149,7 @@
   font-size: 30px;
   font-weight: bold;
 }
-.image6-text4 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  font-size: 30px;
-  font-weight: bold;
-}
+
 .image6-text5 {
   position: absolute;
   left: 10px;
